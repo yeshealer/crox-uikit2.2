@@ -1,6 +1,6 @@
 {
   "name": "crox-uikit2.2",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Set of UI components for crox projects",
   "main": "dist/index.cjs.js",
   "module": "dist/index.esm.js",
@@ -16,12 +16,6 @@
     "build-storybook": "build-storybook",
     "release": "yarn build && np",
     "test": "echo \"No test specified\""
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "yarn format",
-      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
-    }
   },
   "jest": {
     "setupFilesAfterEnv": [
