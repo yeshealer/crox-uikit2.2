@@ -2525,7 +2525,7 @@ var WalletCard = function (_a) {
             login(walletConfig.connectorId);
             window.localStorage.setItem(localStorageKey, "1");
             onDismiss();
-        }, style: { justifyContent: "flex-start", backgroundColor: '#2C2D3A', minWidth: '366px' }, mb: mb, p: "36px 16px", id: "wallet-connect-" + title.toLocaleLowerCase() },
+        }, className: 'walletButton', style: { justifyContent: "flex-start", backgroundColor: '#2C2D3A', minWidth: '366px' }, mb: mb, p: "36px 16px", id: "wallet-connect-" + title.toLocaleLowerCase() },
         React.createElement(Icon, { width: "32px" }),
         React.createElement(Text, { bold: true, color: "#4F5069", ml: "16px" }, title))) : (React.createElement(Button, { fullWidth: true, variant: "tertiary", onClick: function () {
             login(walletConfig.connectorId);
